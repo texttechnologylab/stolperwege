@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+	<name>Event</name>
+	<description/>
+	<version>1.0</version>
+	<vendor/>
+	<imports>
+		<import location="DiscourseReferent.xml"/>
+		<import location="Place.xml"/>
+		<import location="Person.xml"/>
+		<import location="Time.xml"/>
+		<import location="Proposition.xml"/>
+	</imports>
+	<types>
+		<typeDescription>
+			<name>org.hucompute.publichistory.datastore.typesystem.Event</name>
+			<description/>
+			<supertypeName>org.hucompute.publichistory.datastore.typesystem.DiscourseReferent</supertypeName>
+			<features>
+				<featureDescription>
+					<name>startsWith</name>
+					<description/>
+					<rangeTypeName>uima.cas.FSArray</rangeTypeName>
+					<elementType>org.hucompute.publichistory.datastore.typesystem.Event</elementType>
+					<multipleReferencesAllowed>true</multipleReferencesAllowed>
+				</featureDescription>
+				<featureDescription>
+					<name>endsWith</name>
+					<description/>
+					<rangeTypeName>uima.cas.FSArray</rangeTypeName>
+					<elementType>org.hucompute.publichistory.datastore.typesystem.Event</elementType>
+					<multipleReferencesAllowed>true</multipleReferencesAllowed>
+				</featureDescription>
+				<featureDescription>
+					<name>startTime</name>
+					<description/>
+					<rangeTypeName>org.hucompute.publichistory.datastore.typesystem.Time</rangeTypeName>
+				</featureDescription>
+				<featureDescription>
+					<name>endTime</name>
+					<description/>
+					<rangeTypeName>org.hucompute.publichistory.datastore.typesystem.Time</rangeTypeName>
+				</featureDescription>
+				<featureDescription>
+					<name>propositions</name>
+					<description/>
+					<rangeTypeName>uima.cas.FSArray</rangeTypeName>
+					<elementType>org.hucompute.publichistory.datastore.typesystem.Proposition</elementType>
+				</featureDescription>
+				</features>
+		</typeDescription>
+	</types>
+</typeSystemDescription>

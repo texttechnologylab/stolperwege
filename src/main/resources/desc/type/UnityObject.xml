@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+    <name>UnityObject</name>
+    <description/>
+    <version>1.0</version>
+    <vendor/>
+  <imports>
+    <import location="DiscourseReferent.xml"/>
+  </imports>
+<types>
+    <typeDescription>
+      <name>org.hucompute.publichistory.datastore.typesystem.UnityObject</name>
+      <description/>
+      <supertypeName>org.hucompute.publichistory.datastore.typesystem.DiscourseReferent</supertypeName>
+      <features>
+        <featureDescription>
+          <name>version</name>
+          <description/>
+          <rangeTypeName>uima.cas.Float</rangeTypeName>
+        </featureDescription>
+      <featureDescription>
+          <name>scale</name>
+          <description/>
+          <rangeTypeName>uima.cas.Float</rangeTypeName>
+        </featureDescription>
+      <featureDescription>
+          <name>model</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      <featureDescription>
+          <name>preview</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      <featureDescription>
+          <name>children</name>
+          <description/>
+          <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+          <elementType>org.hucompute.publichistory.datastore.typesystem.UnityObject</elementType>
+        </featureDescription>
+      </features>
+    </typeDescription>
+  </types>
+</typeSystemDescription>

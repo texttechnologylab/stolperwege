@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+	<name>org.hucompute.publichistory.datastore.typesystem.TermConnector</name>
+	<description />
+	<version>1.0</version>
+	<vendor />
+	<imports>
+		<import location="Term.xml" />
+		<import location="Connector.xml" />
+		<import location="StolperwegeElement.xml" />
+	</imports>
+	<types>
+		<typeDescription>
+			<name>org.hucompute.publichistory.datastore.typesystem.TermConnector</name>
+			<description />
+			<supertypeName>org.hucompute.publichistory.datastore.typesystem.StolperwegeElement</supertypeName>
+			<features>
+				<featureDescription>
+					<name>connector</name>
+					<description />
+					<rangeTypeName>org.hucompute.publichistory.datastore.typesystem.Connector</rangeTypeName>
+				</featureDescription>
+				<featureDescription>
+					<name>terms</name>
+					<description />
+					<rangeTypeName>uima.cas.FSArray</rangeTypeName>
+					<elementType>org.hucompute.publichistory.datastore.typesystem.Term</elementType>
+				</featureDescription>
+			</features>
+		</typeDescription>
+	</types>
+</typeSystemDescription>

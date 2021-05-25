@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+	<name>ArgumentRole</name>
+	<description />
+	<version>1.0</version>
+	<vendor />
+	<imports>
+		<import location="Predicate.xml" />
+	</imports>
+	<types>
+		<typeDescription>
+			<name>org.hucompute.publichistory.datastore.typesystem.ArgumentRole</name>
+			<description />
+			<supertypeName>org.hucompute.publichistory.datastore.typesystem.Predicate</supertypeName>
+		</typeDescription>
+
+	</types>
+</typeSystemDescription>

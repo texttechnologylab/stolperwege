@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+    <name>StolperwegeUser</name>
+    <description/>
+    <version>1.0</version>
+    <vendor/>
+  <imports>
+    <import location="DiscourseReferent.xml"/>
+    <import location="Preference.xml"/>
+  </imports>
+<types>
+    <typeDescription>
+      <name>org.hucompute.publichistory.datastore.typesystem.StolperwegeUser</name>
+      <description/>
+      <supertypeName>org.hucompute.publichistory.datastore.typesystem.DiscourseReferent</supertypeName>
+    <features>
+        <featureDescription>
+          <name>mail</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>status</name>
+          <description/>
+          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>password</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>preferences</name>
+          <description/>
+          <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+          <elementType>org.hucompute.publichistory.datastore.typesystem.Preference</elementType>
+          <multipleReferencesAllowed>false</multipleReferencesAllowed>
+        </featureDescription>
+      </features>
+    </typeDescription>
+  </types>
+</typeSystemDescription>

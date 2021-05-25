@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+    <name>Waypoint</name>
+    <description/>
+    <version>1.0</version>
+    <vendor/>
+  <imports>
+    <import location="UnityPosition.xml"/>
+  </imports>
+  <types>
+    <typeDescription>
+      <name>org.hucompute.publichistory.datastore.typesystem.Waypoint</name>
+      <description/>
+      <supertypeName>org.hucompute.publichistory.datastore.typesystem.UnityPosition</supertypeName>
+      <features>
+        <featureDescription>
+          <name>area</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>visible</name>
+          <description/>
+          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+  </types>
+</typeSystemDescription>

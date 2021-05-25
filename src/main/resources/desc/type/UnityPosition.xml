@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+    <name>UnityPosition</name>
+    <description/>
+    <version>1.0</version>
+    <vendor/>
+  <imports>
+    <import location="Position.xml"/>
+  </imports>
+<types>
+    <typeDescription>
+      <name>org.hucompute.publichistory.datastore.typesystem.UnityPosition</name>
+      <description/>
+      <supertypeName>org.hucompute.publichistory.datastore.typesystem.Position</supertypeName>
+      <features>
+        <featureDescription>
+          <name>posvector3</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>rotation</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+
+      </features>
+    </typeDescription>
+  </types>
+</typeSystemDescription>

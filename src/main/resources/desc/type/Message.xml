@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+    <name>Message</name>
+    <description/>
+    <version>1.0</version>
+    <vendor/>
+  <imports>
+    <import location="DiscourseReferent.xml"/>
+    <import location="StolperwegeUser.xml"/>
+  </imports>
+<types>
+    <typeDescription>
+      <name>org.hucompute.publichistory.datastore.typesystem.Message</name>
+      <description/>
+      <supertypeName>org.hucompute.publichistory.datastore.typesystem.DiscourseReferent</supertypeName>
+    <features>
+        <featureDescription>
+          <name>receiver</name>
+          <description/>
+          <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+          <elementType>org.hucompute.publichistory.datastore.typesystem.StolperwegeUser</elementType>
+        </featureDescription>
+      <featureDescription>
+          <name>sender</name>
+          <description/>
+          <rangeTypeName>org.hucompute.publichistory.datastore.typesystem.StolperwegeUser</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+  </types>
+</typeSystemDescription>

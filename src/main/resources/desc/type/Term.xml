@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+	<name>org.hucompute.publichistory.datastore.typesystem.Term</name>
+	<description />
+	<version>1.0</version>
+	<vendor />
+	<imports>
+		<import location="Predicate.xml" />
+		<import location="Argument.xml" />
+		<import location="StolperwegeElement.xml" />
+	</imports>
+	<types>
+		<typeDescription>
+			<name>org.hucompute.publichistory.datastore.typesystem.Term</name>
+			<description />
+			<supertypeName>org.hucompute.publichistory.datastore.typesystem.StolperwegeElement</supertypeName>
+			<features>
+				<featureDescription>
+					<name>predicate</name>
+					<description />
+					<rangeTypeName>org.hucompute.publichistory.datastore.typesystem.Predicate</rangeTypeName>
+				</featureDescription>
+				<featureDescription>
+					<name>argument</name>
+					<description />
+					<rangeTypeName>uima.cas.FSArray</rangeTypeName>
+					<elementType>org.hucompute.publichistory.datastore.typesystem.Argument</elementType>
+				</featureDescription>
+			</features>
+		</typeDescription>
+	</types>
+</typeSystemDescription>
