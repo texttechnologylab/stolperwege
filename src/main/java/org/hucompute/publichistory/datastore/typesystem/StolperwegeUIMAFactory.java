@@ -4,7 +4,6 @@ package org.hucompute.publichistory.datastore.typesystem;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.cas.AnnotationBase;
 import org.hucompute.publichistory.datastore.GeoPoint;
-import org.hucompute.publichistory.datastore.RatingType;
 
 import java.util.Set;
 
