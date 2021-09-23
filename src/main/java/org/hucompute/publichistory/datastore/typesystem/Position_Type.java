@@ -10,7 +10,7 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** 
- * Updated by JCasGen Tue May 11 17:35:23 CEST 2021
+ * Updated by JCasGen Thu Sep 23 08:58:15 CEST 2021
  * @generated */
 public class Position_Type extends DiscourseReferent_Type {
   /** @generated */

@@ -10,8 +10,8 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** 
- * Updated by JCasGen Tue May 11 17:35:23 CEST 2021
- * XML source: /home/gabrami/Projects/stolperwege/stolperwege/stolperwege/src/main/resources/desc/type/Rating.xml
+ * Updated by JCasGen Thu Sep 23 08:58:15 CEST 2021
+ * XML source: /home/staff_homes/abrami/Projects/GitHub/stolperwege/src/main/resources/desc/type/Rating.xml
  * @generated */
 public class Rating extends UnityPosition {
   /** @generated
@@ -104,19 +104,19 @@ public class Rating extends UnityPosition {
    * @generated
    * @return value of the feature 
    */
-  public String getRatingType() {
+  public RatingType getRatingType() {
     if (Rating_Type.featOkTst && ((Rating_Type)jcasType).casFeat_ratingType == null)
       jcasType.jcas.throwFeatMissing("ratingType", "org.hucompute.publichistory.datastore.typesystem.Rating");
-    return jcasType.ll_cas.ll_getStringValue(addr, ((Rating_Type)jcasType).casFeatCode_ratingType);}
+    return (RatingType)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((Rating_Type)jcasType).casFeatCode_ratingType)));}
     
   /** setter for ratingType - sets  
    * @generated
    * @param v value to set into the feature 
    */
-  public void setRatingType(String v) {
+  public void setRatingType(RatingType v) {
     if (Rating_Type.featOkTst && ((Rating_Type)jcasType).casFeat_ratingType == null)
       jcasType.jcas.throwFeatMissing("ratingType", "org.hucompute.publichistory.datastore.typesystem.Rating");
-    jcasType.ll_cas.ll_setStringValue(addr, ((Rating_Type)jcasType).casFeatCode_ratingType, v);}    
+    jcasType.ll_cas.ll_setRefValue(addr, ((Rating_Type)jcasType).casFeatCode_ratingType, jcasType.ll_cas.ll_getFSRef(v));}    
    
     
   //*--------------*

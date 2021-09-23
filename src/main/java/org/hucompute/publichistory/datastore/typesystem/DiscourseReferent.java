@@ -11,8 +11,8 @@ import org.apache.uima.jcas.cas.FSArray;
 
 
 /** 
- * Updated by JCasGen Tue May 11 17:35:23 CEST 2021
- * XML source: /home/gabrami/Projects/stolperwege/stolperwege/stolperwege/src/main/resources/desc/type/Rating.xml
+ * Updated by JCasGen Thu Sep 23 08:58:15 CEST 2021
+ * XML source: /home/staff_homes/abrami/Projects/GitHub/stolperwege/src/main/resources/desc/type/Rating.xml
  * @generated */
 public class DiscourseReferent extends Argument {
   /** @generated

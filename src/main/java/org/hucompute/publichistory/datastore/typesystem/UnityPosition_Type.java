@@ -10,7 +10,7 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** 
- * Updated by JCasGen Tue May 11 17:35:23 CEST 2021
+ * Updated by JCasGen Thu Sep 23 08:58:16 CEST 2021
  * @generated */
 public class UnityPosition_Type extends Position_Type {
   /** @generated */

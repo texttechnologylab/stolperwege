@@ -8,7 +8,7 @@ import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.Type;
 
 /** 
- * Updated by JCasGen Tue May 11 17:35:23 CEST 2021
+ * Updated by JCasGen Thu Sep 23 08:58:15 CEST 2021
  * @generated */
 public class Argument_Type extends StolperwegeElement_Type {
   /** @generated */
