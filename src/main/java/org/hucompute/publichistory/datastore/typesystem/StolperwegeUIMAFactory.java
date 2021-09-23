@@ -4,6 +4,7 @@ package org.hucompute.publichistory.datastore.typesystem;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.cas.AnnotationBase;
 import org.hucompute.publichistory.datastore.GeoPoint;
+import org.hucompute.publichistory.datastore.RatingType;
 
 import java.util.Set;
 
@@ -160,11 +161,17 @@ public interface StolperwegeUIMAFactory {
     Set<UnityPosition> listUnityPosition(UnityBuilding pBuilding);
     boolean deleteUnityPosition(UnityPosition pObject);
 
-    Rating createRating(String sVector, String sScale, UnityBuilding pBuilding, int iRating, String ratingType);
+    Rating createRating(String sVector, String sScale, UnityBuilding pBuilding, int iRating, RatingType pRatingType);
     Rating getRating(String sURI);
     Set<Rating> listRating();
     Set<Rating> listRating(UnityBuilding pBuilding);
     boolean deleteRating(Rating pObject);
+
+    RatingType createRatingType(String sKey, String sRange);
+    RatingType getRatingType(String sURI);
+    Set<RatingType> listRatingTypes();
+    Set<RatingType> listRatingTypes(UnityBuilding pBuilding);
+    boolean deleteRatingType(RatingType pObject);
 
     StolperwegeUri createUri(String sValue);
     StolperwegeUri getUri(String sURI);
