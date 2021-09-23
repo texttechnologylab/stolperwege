@@ -11,10 +11,10 @@ import org.apache.uima.jcas.cas.AnnotationBase;
 
 
 /** 
- * Updated by JCasGen Thu Sep 23 08:58:16 CEST 2021
+ * Updated by JCasGen Thu Sep 23 09:36:56 CEST 2021
  * XML source: /home/staff_homes/abrami/Projects/GitHub/stolperwege/src/main/resources/desc/type/Rating.xml
  * @generated */
-public class RatingType extends AnnotationBase {
+public class RatingType extends DiscourseReferent {
   /** @generated
    * @ordered 
    */
@@ -52,6 +52,18 @@ public class RatingType extends AnnotationBase {
     super(jcas);
     readObject();   
   } 
+
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs
+   * @param begin offset to the begin spot in the SofA
+   * @param end offset to the end spot in the SofA 
+  */  
+  public RatingType(JCas jcas, int begin, int end) {
+    super(jcas);
+    setBegin(begin);
+    setEnd(end);
+    readObject();
+  }   
 
   /** 
    * <!-- begin-user-doc -->

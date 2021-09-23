@@ -11,9 +11,9 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.cas.AnnotationBase_Type;
 
 /** 
- * Updated by JCasGen Thu Sep 23 08:58:16 CEST 2021
+ * Updated by JCasGen Thu Sep 23 09:36:56 CEST 2021
  * @generated */
-public class RatingType_Type extends AnnotationBase_Type {
+public class RatingType_Type extends DiscourseReferent_Type {
   /** @generated */
   @SuppressWarnings ("hiding")
   public final static int typeIndexID = RatingType.typeIndexID;
