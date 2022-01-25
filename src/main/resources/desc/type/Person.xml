@@ -1,63 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+<typeSystemDescription
+	xmlns="http://uima.apache.org/resourceSpecifier">
 	<name>Person</name>
 	<description>Instance of a Person</description>
 	<version>1.0</version>
-	<vendor/>
+	<vendor />
 	<imports>
-		<import location="Time.xml"/>
-		<import location="Event.xml"/>
+		<import location="Time.xml" />
+		<import location="Event.xml" />
 	</imports>
 	<types>
 		<typeDescription>
 			<name>org.hucompute.publichistory.datastore.typesystem.Person</name>
-			<description/>
+			<description />
 			<supertypeName>org.hucompute.publichistory.datastore.typesystem.DiscourseReferent</supertypeName>
 			<features>
 				<featureDescription>
 					<name>firstName</name>
-					<description/>
+					<description />
 					<rangeTypeName>uima.cas.String</rangeTypeName>
 				</featureDescription>
 				<featureDescription>
 					<name>lastName</name>
-					<description/>
+					<description />
 					<rangeTypeName>uima.cas.String</rangeTypeName>
 				</featureDescription>
 				<featureDescription>
 					<name>optionalName</name>
-					<description/>
+					<description />
 					<rangeTypeName>uima.cas.StringArray</rangeTypeName>
 					<multipleReferencesAllowed>true</multipleReferencesAllowed>
 				</featureDescription>
 				<featureDescription>
 					<name>birthDate</name>
-					<description/>
+					<description />
 					<rangeTypeName>org.hucompute.publichistory.datastore.typesystem.Time</rangeTypeName>
 				</featureDescription>
 				<featureDescription>
 					<name>deathDate</name>
-					<description/>
+					<description />
 					<rangeTypeName>org.hucompute.publichistory.datastore.typesystem.Time</rangeTypeName>
 				</featureDescription>
 				<featureDescription>
 					<name>father</name>
-					<description/>
+					<description />
 					<rangeTypeName>org.hucompute.publichistory.datastore.typesystem.Person</rangeTypeName>
 				</featureDescription>
 				<featureDescription>
 					<name>mother</name>
-					<description/>
+					<description />
 					<rangeTypeName>org.hucompute.publichistory.datastore.typesystem.Person</rangeTypeName>
 				</featureDescription>
 				<featureDescription>
 					<name>gnd</name>
-					<description/>
+					<description />
 					<rangeTypeName>uima.cas.String</rangeTypeName>
 				</featureDescription>
 				<featureDescription>
 					<name>gender</name>
-					<description/>
+					<description />
 					<rangeTypeName>uima.cas.String</rangeTypeName>
 				</featureDescription>
 			</features>

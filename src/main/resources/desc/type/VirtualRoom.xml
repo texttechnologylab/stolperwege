@@ -1,45 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
-    <name>VirtualRoom</name>
-    <description/>
-    <version>1.0</version>
-    <vendor/>
-   	<imports>
-			<import location="StolperwegeUser.xml"/>
-		</imports>
-  <types>
-    <typeDescription>
-      <name>org.hucompute.publichistory.datastore.typesystem.VirtualRoom</name>
-      <description/>
-      <supertypeName>org.hucompute.publichistory.datastore.typesystem.DiscourseReferent</supertypeName>
-    <features>
-        <featureDescription>
-          <name>public</name>
-          <description/>
-          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
-        </featureDescription>
-      <featureDescription>
-          <name>visible</name>
-          <description/>
-          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
-        </featureDescription>
-      <featureDescription>
-          <name>host</name>
-          <description/>
-          <rangeTypeName>org.hucompute.publichistory.datastore.typesystem.StolperwegeUser</rangeTypeName>
-        </featureDescription>
-        <featureDescription>
-          <name>port</name>
-          <description/>
-          <rangeTypeName>uima.cas.Integer</rangeTypeName>
-        </featureDescription>
-        <featureDescription>
-          <name>clients</name>
-          <description/>
-          <rangeTypeName>uima.cas.FSArray</rangeTypeName>
-          <elementType>org.hucompute.publichistory.datastore.typesystem.StolperwegeUser</elementType>
-        </featureDescription>
-      </features>
-    </typeDescription>
-  </types>
+<typeSystemDescription
+	xmlns="http://uima.apache.org/resourceSpecifier">
+	<name>VirtualRoom</name>
+	<description />
+	<version>1.0</version>
+	<vendor />
+	<imports>
+		<import location="StolperwegeUser.xml" />
+	</imports>
+	<types>
+		<typeDescription>
+			<name>org.hucompute.publichistory.datastore.typesystem.VirtualRoom</name>
+			<description />
+			<supertypeName>org.hucompute.publichistory.datastore.typesystem.DiscourseReferent</supertypeName>
+			<features>
+				<featureDescription>
+					<name>public</name>
+					<description />
+					<rangeTypeName>uima.cas.Boolean</rangeTypeName>
+				</featureDescription>
+				<featureDescription>
+					<name>visible</name>
+					<description />
+					<rangeTypeName>uima.cas.Boolean</rangeTypeName>
+				</featureDescription>
+				<featureDescription>
+					<name>host</name>
+					<description />
+					<rangeTypeName>org.hucompute.publichistory.datastore.typesystem.StolperwegeUser</rangeTypeName>
+				</featureDescription>
+				<featureDescription>
+					<name>port</name>
+					<description />
+					<rangeTypeName>uima.cas.Integer</rangeTypeName>
+				</featureDescription>
+				<featureDescription>
+					<name>clients</name>
+					<description />
+					<rangeTypeName>uima.cas.FSArray</rangeTypeName>
+					<elementType>org.hucompute.publichistory.datastore.typesystem.StolperwegeUser</elementType>
+				</featureDescription>
+			</features>
+		</typeDescription>
+	</types>
 </typeSystemDescription>

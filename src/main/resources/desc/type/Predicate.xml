@@ -1,34 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+<typeSystemDescription
+	xmlns="http://uima.apache.org/resourceSpecifier">
 	<name>Predicate</name>
-	<description/>
+	<description />
 	<version>1.0</version>
-	<vendor/>
+	<vendor />
 	<imports>
-		<import location="ArgumentRole.xml"/>
-		<import location="StolperwegeElement.xml"/>
+		<import location="ArgumentRole.xml" />
+		<import location="StolperwegeElement.xml" />
 	</imports>
 	<types>
 		<typeDescription>
 			<name>org.hucompute.publichistory.datastore.typesystem.Predicate</name>
-			<description/>
+			<description />
 			<supertypeName>org.hucompute.publichistory.datastore.typesystem.StolperwegeElement</supertypeName>
 			<features>
 				<featureDescription>
 					<name>name</name>
-					<description/>
+					<description />
 					<rangeTypeName>uima.cas.String</rangeTypeName>
 				</featureDescription>
 				<featureDescription>
 					<name>mendatoryRole</name>
-					<description/>
+					<description />
 					<rangeTypeName>uima.cas.FSArray</rangeTypeName>
 					<elementType>org.hucompute.publichistory.datastore.typesystem.ArgumentRole</elementType>
 					<multipleReferencesAllowed>true</multipleReferencesAllowed>
 				</featureDescription>
 				<featureDescription>
 					<name>optionalRole</name>
-					<description/>
+					<description />
 					<rangeTypeName>uima.cas.FSArray</rangeTypeName>
 					<elementType>org.hucompute.publichistory.datastore.typesystem.ArgumentRole</elementType>
 					<multipleReferencesAllowed>true</multipleReferencesAllowed>

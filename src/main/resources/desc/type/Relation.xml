@@ -1,35 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
-    <name>Relation</name>
-    <description/>
-    <version>1.0</version>
-    <vendor/>
-  <imports>
-    <import name="desc.type.StolperwegeElement"/>
-    <import name="desc.type.RelationType"/>
-  </imports>
-  <types>
-    <typeDescription>
-      <name>org.hucompute.publichistory.datastore.typesystem.Relation</name>
-      <description/>
-      <supertypeName>uima.cas.AnnotationBase</supertypeName>
-      <features>
-        <featureDescription>
-          <name>Start</name>
-          <description/>
-          <rangeTypeName>org.hucompute.publichistory.datastore.typesystem.StolperwegeElement</rangeTypeName>
-        </featureDescription>
-        <featureDescription>
-          <name>Target</name>
-          <description/>
-          <rangeTypeName>org.hucompute.publichistory.datastore.typesystem.StolperwegeElement</rangeTypeName>
-        </featureDescription>
-        <featureDescription>
-          <name>RType</name>
-          <description/>
-          <rangeTypeName>org.hucompute.publichistory.datastore.typesystem.RelationType</rangeTypeName>
-        </featureDescription>
-      </features>
-    </typeDescription>
-  </types>
+<typeSystemDescription
+	xmlns="http://uima.apache.org/resourceSpecifier">
+	<name>Relation</name>
+	<description />
+	<version>1.0</version>
+	<vendor />
+	<imports>
+		<import name="desc.type.StolperwegeElement" />
+		<import name="desc.type.RelationType" />
+	</imports>
+	<types>
+		<typeDescription>
+			<name>org.hucompute.publichistory.datastore.typesystem.Relation
+			</name>
+			<description />
+			<supertypeName>uima.cas.AnnotationBase</supertypeName>
+			<features>
+				<featureDescription>
+					<name>Start</name>
+					<description />
+					<rangeTypeName>org.hucompute.publichistory.datastore.typesystem.StolperwegeElement
+					</rangeTypeName>
+				</featureDescription>
+				<featureDescription>
+					<name>Target</name>
+					<description />
+					<rangeTypeName>org.hucompute.publichistory.datastore.typesystem.StolperwegeElement
+					</rangeTypeName>
+				</featureDescription>
+				<featureDescription>
+					<name>RType</name>
+					<description />
+					<rangeTypeName>org.hucompute.publichistory.datastore.typesystem.RelationType
+					</rangeTypeName>
+				</featureDescription>
+			</features>
+		</typeDescription>
+	</types>
 </typeSystemDescription>

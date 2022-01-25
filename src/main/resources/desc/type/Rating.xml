@@ -1,34 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
-    <name>Rating</name>
-    <description/>
-    <version>1.0</version>
-    <vendor/>
-<imports>
-    <import name="desc.type.UnityPosition"/>
-  </imports>
-  <types>
-    <typeDescription>
-      <name>org.hucompute.publichistory.datastore.typesystem.Rating</name>
-      <description/>
-      <supertypeName>org.hucompute.publichistory.datastore.typesystem.UnityPosition</supertypeName>
-      <features>
-        <featureDescription>
-          <name>scale</name>
-          <description/>
-          <rangeTypeName>uima.cas.String</rangeTypeName>
-        </featureDescription>
-        <featureDescription>
-          <name>ratingType</name>
-          <description/>
-          <rangeTypeName>uima.cas.String</rangeTypeName>
-        </featureDescription>
-        <featureDescription>
-          <name>ratingValue</name>
-          <description/>
-          <rangeTypeName>uima.cas.Integer</rangeTypeName>
-        </featureDescription>
-      </features>
-    </typeDescription>
-  </types>
+<typeSystemDescription
+	xmlns="http://uima.apache.org/resourceSpecifier">
+	<name>Rating</name>
+	<description />
+	<version>1.0</version>
+	<vendor />
+	<imports>
+		<import name="desc.type.UnityPosition" />
+	</imports>
+	<types>
+		<typeDescription>
+			<name>org.hucompute.publichistory.datastore.typesystem.Rating</name>
+			<description />
+			<supertypeName>org.hucompute.publichistory.datastore.typesystem.UnityPosition</supertypeName>
+			<features>
+				<featureDescription>
+					<name>scale</name>
+					<description />
+					<rangeTypeName>uima.cas.String</rangeTypeName>
+				</featureDescription>
+				<featureDescription>
+					<name>ratingType</name>
+					<description />
+					<rangeTypeName>uima.cas.String</rangeTypeName>
+				</featureDescription>
+				<featureDescription>
+					<name>ratingValue</name>
+					<description />
+					<rangeTypeName>uima.cas.Integer</rangeTypeName>
+				</featureDescription>
+			</features>
+		</typeDescription>
+	</types>
 </typeSystemDescription>

@@ -1,53 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+<typeSystemDescription
+	xmlns="http://uima.apache.org/resourceSpecifier">
 	<name>Event</name>
-	<description/>
+	<description />
 	<version>1.0</version>
-	<vendor/>
+	<vendor />
 	<imports>
-		<import location="DiscourseReferent.xml"/>
-		<import location="Place.xml"/>
-		<import location="Person.xml"/>
-		<import location="Time.xml"/>
-		<import location="Proposition.xml"/>
+		<import location="DiscourseReferent.xml" />
+		<import location="Place.xml" />
+		<import location="Person.xml" />
+		<import location="Time.xml" />
+		<import location="Proposition.xml" />
 	</imports>
 	<types>
 		<typeDescription>
 			<name>org.hucompute.publichistory.datastore.typesystem.Event</name>
-			<description/>
+			<description />
 			<supertypeName>org.hucompute.publichistory.datastore.typesystem.DiscourseReferent</supertypeName>
 			<features>
 				<featureDescription>
 					<name>startsWith</name>
-					<description/>
+					<description />
 					<rangeTypeName>uima.cas.FSArray</rangeTypeName>
 					<elementType>org.hucompute.publichistory.datastore.typesystem.Event</elementType>
 					<multipleReferencesAllowed>true</multipleReferencesAllowed>
 				</featureDescription>
 				<featureDescription>
 					<name>endsWith</name>
-					<description/>
+					<description />
 					<rangeTypeName>uima.cas.FSArray</rangeTypeName>
 					<elementType>org.hucompute.publichistory.datastore.typesystem.Event</elementType>
 					<multipleReferencesAllowed>true</multipleReferencesAllowed>
 				</featureDescription>
 				<featureDescription>
 					<name>startTime</name>
-					<description/>
+					<description />
 					<rangeTypeName>org.hucompute.publichistory.datastore.typesystem.Time</rangeTypeName>
 				</featureDescription>
 				<featureDescription>
 					<name>endTime</name>
-					<description/>
+					<description />
 					<rangeTypeName>org.hucompute.publichistory.datastore.typesystem.Time</rangeTypeName>
 				</featureDescription>
 				<featureDescription>
 					<name>propositions</name>
-					<description/>
+					<description />
 					<rangeTypeName>uima.cas.FSArray</rangeTypeName>
 					<elementType>org.hucompute.publichistory.datastore.typesystem.Proposition</elementType>
 				</featureDescription>
-				</features>
+			</features>
 		</typeDescription>
 	</types>
 </typeSystemDescription>

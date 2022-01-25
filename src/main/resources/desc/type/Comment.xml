@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <typeSystemDescription
 	xmlns="http://uima.apache.org/resourceSpecifier">
-	<name>Image</name>
+	<name>Comment</name>
 	<description />
 	<version>1.0</version>
 	<vendor />
 	<imports>
-		<import location="DiscourseReferent.xml" />
+		<import location="Text.xml" />
 	</imports>
 	<types>
-
 		<typeDescription>
-			<name>org.hucompute.publichistory.datastore.typesystem.Image</name>
+			<name>org.hucompute.publichistory.datastore.typesystem.Comment</name>
 			<description />
-			<supertypeName>org.hucompute.publichistory.datastore.typesystem.DiscourseReferent</supertypeName>
+			<supertypeName>org.hucompute.publichistory.datastore.typesystem.Text</supertypeName>
 			<features>
 				<featureDescription>
-					<name>parent</name>
+					<name>timestamp</name>
 					<description />
-					<rangeTypeName>org.hucompute.publichistory.datastore.typesystem.Image</rangeTypeName>
+					<rangeTypeName>uima.cas.Long</rangeTypeName>
 				</featureDescription>
 			</features>
 		</typeDescription>
 	</types>
-
 </typeSystemDescription>

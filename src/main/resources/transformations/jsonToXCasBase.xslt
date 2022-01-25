@@ -5,7 +5,8 @@
 	<xsl:output method="xml" indent="yes" />
 
 	<xsl:template name="childrenNode">
-		<xsl:variable name="node_name" select="./desc.type/text()" />
+		<xsl:variable name="node_name"
+			select="./desc.type/text()" />
 		<xsl:element name="{$node_name}">
 			<xsl:for-each select="./attribs/*">
 				<xsl:variable name="attrib_name" select="name()" />

@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+<typeSystemDescription
+	xmlns="http://uima.apache.org/resourceSpecifier">
 	<name>DiscourseReferent</name>
-	<description/>
+	<description />
 	<version>1.0</version>
-	<vendor/>
+	<vendor />
 	<imports>
-		<import location="Argument.xml"/>
+		<import location="Argument.xml" />
 	</imports>
 	<types>
 		<typeDescription>
 			<name>org.hucompute.publichistory.datastore.typesystem.DiscourseReferent</name>
-			<description/>
+			<description />
 			<supertypeName>org.hucompute.publichistory.datastore.typesystem.Argument</supertypeName>
 			<features>
 				<featureDescription>
 					<name>equivalent</name>
-					<description/>
+					<description />
 					<rangeTypeName>uima.cas.FSArray</rangeTypeName>
 					<elementType>org.hucompute.publichistory.datastore.typesystem.DiscourseReferent</elementType>
 					<multipleReferencesAllowed>true</multipleReferencesAllowed>

@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
-    <name>Preference</name>
-    <description/>
-    <version>1.0</version>
-    <vendor/>
-  <imports>
-    <import location="DiscourseReferent.xml"/>
-  </imports>
-  <types>
-    <typeDescription>
-      <name>org.hucompute.publichistory.datastore.typesystem.Preference</name>
-      <description/>
-      <supertypeName>org.hucompute.publichistory.datastore.typesystem.DiscourseReferent</supertypeName>
-      <features>
-        <featureDescription>
-          <name>key</name>
-          <description/>
-          <rangeTypeName>uima.cas.String</rangeTypeName>
-        </featureDescription>
-        <featureDescription>
-          <name>value</name>
-          <description/>
-          <rangeTypeName>uima.cas.String</rangeTypeName>
-        </featureDescription>
-      </features>
-    </typeDescription>
+<typeSystemDescription
+	xmlns="http://uima.apache.org/resourceSpecifier">
+	<name>Preference</name>
+	<description />
+	<version>1.0</version>
+	<vendor />
+	<imports>
+		<import location="DiscourseReferent.xml" />
+	</imports>
+	<types>
+		<typeDescription>
+			<name>org.hucompute.publichistory.datastore.typesystem.Preference</name>
+			<description />
+			<supertypeName>org.hucompute.publichistory.datastore.typesystem.DiscourseReferent</supertypeName>
+			<features>
+				<featureDescription>
+					<name>key</name>
+					<description />
+					<rangeTypeName>uima.cas.String</rangeTypeName>
+				</featureDescription>
+				<featureDescription>
+					<name>value</name>
+					<description />
+					<rangeTypeName>uima.cas.String</rangeTypeName>
+				</featureDescription>
+			</features>
+		</typeDescription>
 
-  </types>
+	</types>
 </typeSystemDescription>

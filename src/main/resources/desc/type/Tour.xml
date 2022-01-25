@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
-    <name>Tour</name>
-    <description/>
-    <version>1.0</version>
-    <vendor/>
-  <imports>
-    <import location="Waypoint.xml"/>
-  </imports>
-  <types>
-    <typeDescription>
-      <name>org.hucompute.publichistory.datastore.typesystem.Tour</name>
-      <description/>
-      <supertypeName>org.hucompute.publichistory.datastore.typesystem.UnityPosition</supertypeName>
-      <features>
-        <featureDescription>
-          <name>previous</name>
-          <description/>
-          <rangeTypeName>org.hucompute.publichistory.datastore.typesystem.Waypoint</rangeTypeName>
-        </featureDescription>
-          <featureDescription>
-          <name>next</name>
-          <description/>
-          <rangeTypeName>org.hucompute.publichistory.datastore.typesystem.Waypoint</rangeTypeName>
-        </featureDescription>
-      </features>
-    </typeDescription>
-  </types>
+<typeSystemDescription
+	xmlns="http://uima.apache.org/resourceSpecifier">
+	<name>Tour</name>
+	<description />
+	<version>1.0</version>
+	<vendor />
+	<imports>
+		<import location="Waypoint.xml" />
+	</imports>
+	<types>
+		<typeDescription>
+			<name>org.hucompute.publichistory.datastore.typesystem.Tour</name>
+			<description />
+			<supertypeName>org.hucompute.publichistory.datastore.typesystem.UnityPosition</supertypeName>
+			<features>
+				<featureDescription>
+					<name>previous</name>
+					<description />
+					<rangeTypeName>org.hucompute.publichistory.datastore.typesystem.Waypoint</rangeTypeName>
+				</featureDescription>
+				<featureDescription>
+					<name>next</name>
+					<description />
+					<rangeTypeName>org.hucompute.publichistory.datastore.typesystem.Waypoint</rangeTypeName>
+				</featureDescription>
+			</features>
+		</typeDescription>
+	</types>
 </typeSystemDescription>

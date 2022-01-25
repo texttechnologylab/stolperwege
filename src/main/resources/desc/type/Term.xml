@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+<typeSystemDescription
+	xmlns="http://uima.apache.org/resourceSpecifier">
 	<name>org.hucompute.publichistory.datastore.typesystem.Term</name>
 	<description />
 	<version>1.0</version>

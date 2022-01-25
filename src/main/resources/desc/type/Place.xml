@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+<typeSystemDescription
+	xmlns="http://uima.apache.org/resourceSpecifier">
 	<name>Place</name>
-	<description/>
+	<description />
 	<version>1.0</version>
-	<vendor/>
+	<vendor />
 	<imports>
-		<import location="DiscourseReferent.xml"/>
-		<import location="Position.xml"/>
+		<import location="DiscourseReferent.xml" />
+		<import location="Position.xml" />
 	</imports>
 	<types>
 		<typeDescription>
 			<name>org.hucompute.publichistory.datastore.typesystem.Place</name>
-			<description/>
+			<description />
 			<supertypeName>org.hucompute.publichistory.datastore.typesystem.DiscourseReferent</supertypeName>
-			</typeDescription>
+		</typeDescription>
 	</types>
 </typeSystemDescription>
