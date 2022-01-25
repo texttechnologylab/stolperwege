@@ -10,7 +10,7 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** 
- * Updated by JCasGen Tue May 11 17:35:23 CEST 2021
+ * Updated by JCasGen Thu Sep 23 09:36:56 CEST 2021
  * @generated */
 public class DiscourseReferent_Type extends Argument_Type {
   /** @generated */

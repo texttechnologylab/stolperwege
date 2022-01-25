@@ -10,7 +10,7 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** 
- * Updated by JCasGen Tue May 11 17:35:23 CEST 2021
+ * Updated by JCasGen Thu Sep 23 09:36:56 CEST 2021
  * @generated */
 public class Rating_Type extends UnityPosition_Type {
   /** @generated */
@@ -53,19 +53,19 @@ public class Rating_Type extends UnityPosition_Type {
    * @param addr low level Feature Structure reference
    * @return the feature value 
    */ 
-  public String getRatingType(int addr) {
+  public int getRatingType(int addr) {
         if (featOkTst && casFeat_ratingType == null)
       jcas.throwFeatMissing("ratingType", "org.hucompute.publichistory.datastore.typesystem.Rating");
-    return ll_cas.ll_getStringValue(addr, casFeatCode_ratingType);
+    return ll_cas.ll_getRefValue(addr, casFeatCode_ratingType);
   }
   /** @generated
    * @param addr low level Feature Structure reference
    * @param v value to set 
    */    
-  public void setRatingType(int addr, String v) {
+  public void setRatingType(int addr, int v) {
         if (featOkTst && casFeat_ratingType == null)
       jcas.throwFeatMissing("ratingType", "org.hucompute.publichistory.datastore.typesystem.Rating");
-    ll_cas.ll_setStringValue(addr, casFeatCode_ratingType, v);}
+    ll_cas.ll_setRefValue(addr, casFeatCode_ratingType, v);}
     
   
  
@@ -109,7 +109,7 @@ public class Rating_Type extends UnityPosition_Type {
     casFeatCode_scale  = (null == casFeat_scale) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_scale).getCode();
 
  
-    casFeat_ratingType = jcas.getRequiredFeatureDE(casType, "ratingType", "uima.cas.String", featOkTst);
+    casFeat_ratingType = jcas.getRequiredFeatureDE(casType, "ratingType", "org.hucompute.publichistory.datastore.typesystem.RatingType", featOkTst);
     casFeatCode_ratingType  = (null == casFeat_ratingType) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_ratingType).getCode();
 
  
