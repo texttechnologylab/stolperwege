@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Tue Jul 09 12:16:07 CEST 2019 */
+/* First created by JCasGen Tue Jan 25 16:26:01 CET 2022 */
 package org.hucompute.publichistory.datastore.typesystem;
 
 import org.apache.uima.jcas.JCas; 
@@ -10,8 +10,8 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** 
- * Updated by JCasGen Tue Jul 09 12:16:07 CEST 2019
- * XML source: /home/staff_homes/abrami/Projects/stolperwege/stolperwege/src/main/resources/desc/type/Text.xml
+ * Updated by JCasGen Tue Jan 25 16:36:25 CET 2022
+ * XML source: /home/gabrami/Projects/GitHub/stolperwege/src/main/resources/desc/type/Text.xml
  * @generated */
 public class Text extends DiscourseReferent {
   /** @generated

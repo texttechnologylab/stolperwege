@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Jan 16 13:35:19 CET 2019 */
+/* First created by JCasGen Tue Jan 25 16:26:46 CET 2022 */
 package org.hucompute.publichistory.datastore.typesystem;
 
 import org.apache.uima.jcas.JCas;
@@ -10,7 +10,7 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** 
- * Updated by JCasGen Tue Jul 09 14:40:40 CEST 2019
+ * Updated by JCasGen Tue Jan 25 16:26:46 CET 2022
  * @generated */
 public class DiscourseSurface_Type extends DiscourseReferent_Type {
   /** @generated */
@@ -54,7 +54,7 @@ public class DiscourseSurface_Type extends DiscourseReferent_Type {
     if (lowLevelTypeChecks)
       return ll_cas.ll_getStringArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_vertices), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_vertices), i);
-  return ll_cas.ll_getStringArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_vertices), i);
+	return ll_cas.ll_getStringArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_vertices), i);
   }
    
   /** @generated
@@ -105,7 +105,7 @@ public class DiscourseSurface_Type extends DiscourseReferent_Type {
     if (lowLevelTypeChecks)
       return ll_cas.ll_getIntArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_indices), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_indices), i);
-  return ll_cas.ll_getIntArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_indices), i);
+	return ll_cas.ll_getIntArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_indices), i);
   }
    
   /** @generated

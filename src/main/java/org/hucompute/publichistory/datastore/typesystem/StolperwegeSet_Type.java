@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Tue Jul 09 12:17:48 CEST 2019 */
+/* First created by JCasGen Tue Jan 25 16:36:10 CET 2022 */
 package org.hucompute.publichistory.datastore.typesystem;
 
 import org.apache.uima.jcas.JCas;
@@ -10,7 +10,7 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** 
- * Updated by JCasGen Tue Jul 09 12:18:56 CEST 2019
+ * Updated by JCasGen Tue Jan 25 16:36:10 CET 2022
  * @generated */
 public class StolperwegeSet_Type extends DiscourseReferent_Type {
   /** @generated */
@@ -54,7 +54,7 @@ public class StolperwegeSet_Type extends DiscourseReferent_Type {
     if (lowLevelTypeChecks)
       return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_contains), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_contains), i);
-  return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_contains), i);
+	return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_contains), i);
   }
    
   /** @generated

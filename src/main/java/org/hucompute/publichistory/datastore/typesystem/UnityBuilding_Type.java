@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Tue Jul 09 12:16:21 CEST 2019 */
+/* First created by JCasGen Tue Jan 25 16:36:37 CET 2022 */
 package org.hucompute.publichistory.datastore.typesystem;
 
 import org.apache.uima.jcas.JCas;
@@ -10,7 +10,7 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** 
- * Updated by JCasGen Tue Jul 09 12:16:21 CEST 2019
+ * Updated by JCasGen Tue Jan 25 16:36:37 CET 2022
  * @generated */
 public class UnityBuilding_Type extends UnityObject_Type {
   /** @generated */

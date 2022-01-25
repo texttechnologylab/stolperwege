@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Jul 10 14:30:32 CEST 2019 */
+/* First created by JCasGen Tue Jan 25 16:35:56 CET 2022 */
 package org.hucompute.publichistory.datastore.typesystem;
 
 import org.apache.uima.jcas.JCas;
@@ -10,10 +10,8 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.cas.AnnotationBase_Type;
 
-import org.apache.uima.jcas.tcas.Annotation_Type;
-
 /** 
- * Updated by JCasGen Wed Jul 10 14:31:07 CEST 2019
+ * Updated by JCasGen Tue Jan 25 16:35:56 CET 2022
  * @generated */
 public class Relation_Type extends AnnotationBase_Type {
   /** @generated */

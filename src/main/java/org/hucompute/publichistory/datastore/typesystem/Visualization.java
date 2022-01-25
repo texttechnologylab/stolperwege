@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Tue Jul 09 12:18:06 CEST 2019 */
+/* First created by JCasGen Tue Jan 25 16:36:51 CET 2022 */
 package org.hucompute.publichistory.datastore.typesystem;
 
 import org.apache.uima.jcas.JCas; 
@@ -11,8 +11,8 @@ import org.apache.uima.jcas.cas.StringArray;
 
 
 /** 
- * Updated by JCasGen Tue Jul 09 12:18:06 CEST 2019
- * XML source: /home/staff_homes/abrami/Projects/stolperwege/stolperwege/src/main/resources/desc/type/Visualization.xml
+ * Updated by JCasGen Tue Jan 25 16:36:51 CET 2022
+ * XML source: /home/gabrami/Projects/GitHub/stolperwege/src/main/resources/desc/type/Visualization.xml
  * @generated */
 public class Visualization extends DiscourseReferent {
   /** @generated

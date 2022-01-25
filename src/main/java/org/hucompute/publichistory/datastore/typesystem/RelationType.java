@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Tue Jul 09 12:13:32 CEST 2019 */
+/* First created by JCasGen Tue Jan 25 16:35:56 CET 2022 */
 package org.hucompute.publichistory.datastore.typesystem;
 
 import org.apache.uima.jcas.JCas; 
@@ -10,12 +10,9 @@ import org.apache.uima.jcas.cas.TOP_Type;
 import org.apache.uima.jcas.tcas.Annotation;
 
 
-import org.apache.uima.jcas.cas.AnnotationBase;
-
-
 /** 
- * Updated by JCasGen Wed Jul 10 14:31:07 CEST 2019
- * XML source: /home/staff_homes/abrami/Projects/stolperwege/stolperwege/src/main/resources/desc/type/Relation.xml
+ * Updated by JCasGen Tue Jan 25 16:35:59 CET 2022
+ * XML source: /home/gabrami/Projects/GitHub/stolperwege/src/main/resources/desc/type/RelationType.xml
  * @generated */
 public class RelationType extends Annotation {
   /** @generated

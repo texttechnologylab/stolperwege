@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Tue Jul 09 12:15:26 CEST 2019 */
+/* First created by JCasGen Tue Jan 25 16:26:20 CET 2022 */
 package org.hucompute.publichistory.datastore.typesystem;
 
 import org.apache.uima.jcas.JCas;
@@ -8,7 +8,7 @@ import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.Type;
 
 /** 
- * Updated by JCasGen Tue Jul 09 12:15:26 CEST 2019
+ * Updated by JCasGen Tue Jan 25 16:26:20 CET 2022
  * @generated */
 public class Audio_Type extends DiscourseReferent_Type {
   /** @generated */

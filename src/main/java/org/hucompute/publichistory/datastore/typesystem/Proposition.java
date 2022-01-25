@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Tue Jul 09 12:14:17 CEST 2019 */
+/* First created by JCasGen Tue Jan 25 16:26:50 CET 2022 */
 package org.hucompute.publichistory.datastore.typesystem;
 
 import org.apache.uima.jcas.JCas; 
@@ -11,8 +11,8 @@ import org.apache.uima.jcas.cas.FSArray;
 
 
 /** 
- * Updated by JCasGen Tue Jul 09 12:14:26 CEST 2019
- * XML source: /home/staff_homes/abrami/Projects/stolperwege/stolperwege/src/main/resources/desc/type/Event.xml
+ * Updated by JCasGen Tue Jan 25 16:35:46 CET 2022
+ * XML source: /home/gabrami/Projects/GitHub/stolperwege/src/main/resources/desc/type/Proposition.xml
  * @generated */
 public class Proposition extends StolperwegeElement {
   /** @generated

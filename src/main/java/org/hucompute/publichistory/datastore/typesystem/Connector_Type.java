@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Tue Jul 09 12:14:17 CEST 2019 */
+/* First created by JCasGen Tue Jan 25 16:26:35 CET 2022 */
 package org.hucompute.publichistory.datastore.typesystem;
 
 import org.apache.uima.jcas.JCas;
@@ -11,7 +11,7 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.cas.AnnotationBase_Type;
 
 /** 
- * Updated by JCasGen Tue Jul 09 12:14:26 CEST 2019
+ * Updated by JCasGen Tue Jan 25 16:36:22 CET 2022
  * @generated */
 public class Connector_Type extends AnnotationBase_Type {
   /** @generated */

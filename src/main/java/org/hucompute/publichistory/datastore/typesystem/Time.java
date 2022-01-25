@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Tue Jul 09 12:14:17 CEST 2019 */
+/* First created by JCasGen Tue Jan 25 16:26:50 CET 2022 */
 package org.hucompute.publichistory.datastore.typesystem;
 
 import org.apache.uima.jcas.JCas; 
@@ -10,8 +10,8 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** 
- * Updated by JCasGen Tue Jul 09 12:14:27 CEST 2019
- * XML source: /home/staff_homes/abrami/Projects/stolperwege/stolperwege/src/main/resources/desc/type/Event.xml
+ * Updated by JCasGen Tue Jan 25 16:36:27 CET 2022
+ * XML source: /home/gabrami/Projects/GitHub/stolperwege/src/main/resources/desc/type/Time.xml
  * @generated */
 public class Time extends DiscourseReferent {
   /** @generated

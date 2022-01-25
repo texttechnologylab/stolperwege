@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Tue Jul 09 12:13:49 CEST 2019 */
+/* First created by JCasGen Tue Jan 25 16:26:01 CET 2022 */
 package org.hucompute.publichistory.datastore.typesystem;
 
 import org.apache.uima.jcas.JCas;
@@ -8,7 +8,7 @@ import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.Type;
 
 /** 
- * Updated by JCasGen Thu Sep 23 09:36:56 CEST 2021
+ * Updated by JCasGen Tue Jan 25 16:36:54 CET 2022
  * @generated */
 public class Argument_Type extends StolperwegeElement_Type {
   /** @generated */

@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Thu Sep 23 08:58:16 CEST 2021 */
+/* First created by JCasGen Tue Jan 25 16:35:52 CET 2022 */
 package org.hucompute.publichistory.datastore.typesystem;
 
 import org.apache.uima.jcas.JCas;
@@ -8,10 +8,9 @@ import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.Type;
 import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
-import org.apache.uima.jcas.cas.AnnotationBase_Type;
 
 /** 
- * Updated by JCasGen Thu Sep 23 09:36:56 CEST 2021
+ * Updated by JCasGen Tue Jan 25 16:35:52 CET 2022
  * @generated */
 public class RatingType_Type extends DiscourseReferent_Type {
   /** @generated */

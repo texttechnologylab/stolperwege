@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Tue Jul 09 12:13:32 CEST 2019 */
+/* First created by JCasGen Tue Jan 25 16:26:01 CET 2022 */
 package org.hucompute.publichistory.datastore.typesystem;
 
 import org.apache.uima.jcas.JCas; 
@@ -11,8 +11,8 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** 
- * Updated by JCasGen Thu Sep 23 09:36:56 CEST 2021
- * XML source: /home/staff_homes/abrami/Projects/GitHub/stolperwege/src/main/resources/desc/type/Rating.xml
+ * Updated by JCasGen Tue Jan 25 16:36:54 CET 2022
+ * XML source: /home/gabrami/Projects/GitHub/stolperwege/src/main/resources/desc/type/Waypoint.xml
  * @generated */
 public class StolperwegeElement extends Annotation {
   /** @generated

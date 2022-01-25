@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Tue May 11 17:16:07 CEST 2021 */
+/* First created by JCasGen Tue Jan 25 16:35:52 CET 2022 */
 package org.hucompute.publichistory.datastore.typesystem;
 
 import org.apache.uima.jcas.JCas;
@@ -10,7 +10,7 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** 
- * Updated by JCasGen Thu Sep 23 09:36:56 CEST 2021
+ * Updated by JCasGen Tue Jan 25 16:35:52 CET 2022
  * @generated */
 public class Rating_Type extends UnityPosition_Type {
   /** @generated */

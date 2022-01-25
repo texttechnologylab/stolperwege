@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Tue May 11 17:16:07 CEST 2021 */
+/* First created by JCasGen Tue Jan 25 16:35:52 CET 2022 */
 package org.hucompute.publichistory.datastore.typesystem;
 
 import org.apache.uima.jcas.JCas; 
@@ -10,8 +10,8 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** 
- * Updated by JCasGen Thu Sep 23 09:36:56 CEST 2021
- * XML source: /home/staff_homes/abrami/Projects/GitHub/stolperwege/src/main/resources/desc/type/Rating.xml
+ * Updated by JCasGen Tue Jan 25 16:35:52 CET 2022
+ * XML source: /home/gabrami/Projects/GitHub/stolperwege/src/main/resources/desc/type/Rating.xml
  * @generated */
 public class Rating extends UnityPosition {
   /** @generated

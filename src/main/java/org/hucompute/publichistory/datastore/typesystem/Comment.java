@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Tue Jan 25 16:26:24 CET 2022 */
+/* First created by JCasGen Tue Jan 25 16:26:32 CET 2022 */
 package org.hucompute.publichistory.datastore.typesystem;
 
 import org.apache.uima.jcas.JCas; 
@@ -10,15 +10,15 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** 
- * Updated by JCasGen Tue Jan 25 16:26:24 CET 2022
- * XML source: /home/gabrami/Projects/GitHub/stolperwege/src/main/resources/desc/type/Avatar.xml
+ * Updated by JCasGen Tue Jan 25 16:26:32 CET 2022
+ * XML source: /home/gabrami/Projects/GitHub/stolperwege/src/main/resources/desc/type/Comment.xml
  * @generated */
-public class Avatar extends UnityObject {
+public class Comment extends Text {
   /** @generated
    * @ordered 
    */
   @SuppressWarnings ("hiding")
-  public final static int typeIndexID = JCasRegistry.register(Avatar.class);
+  public final static int typeIndexID = JCasRegistry.register(Comment.class);
   /** @generated
    * @ordered 
    */
@@ -32,14 +32,14 @@ public class Avatar extends UnityObject {
  
   /** Never called.  Disable default constructor
    * @generated */
-  protected Avatar() {/* intentionally empty block */}
+  protected Comment() {/* intentionally empty block */}
     
   /** Internal - constructor used by generator 
    * @generated
    * @param addr low level Feature Structure reference
    * @param type the type of this Feature Structure 
    */
-  public Avatar(int addr, TOP_Type type) {
+  public Comment(int addr, TOP_Type type) {
     super(addr, type);
     readObject();
   }
@@ -47,7 +47,7 @@ public class Avatar extends UnityObject {
   /** @generated
    * @param jcas JCas to which this Feature Structure belongs 
    */
-  public Avatar(JCas jcas) {
+  public Comment(JCas jcas) {
     super(jcas);
     readObject();   
   } 
@@ -57,7 +57,7 @@ public class Avatar extends UnityObject {
    * @param begin offset to the begin spot in the SofA
    * @param end offset to the end spot in the SofA 
   */  
-  public Avatar(JCas jcas, int begin, int end) {
+  public Comment(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);
     setEnd(end);
@@ -73,6 +73,28 @@ public class Avatar extends UnityObject {
    */
   private void readObject() {/*default - does nothing empty block */}
      
-}
+ 
+    
+  //*--------------*
+  //* Feature: timestamp
+
+  /** getter for timestamp - gets 
+   * @generated
+   * @return value of the feature 
+   */
+  public long getTimestamp() {
+    if (Comment_Type.featOkTst && ((Comment_Type)jcasType).casFeat_timestamp == null)
+      jcasType.jcas.throwFeatMissing("timestamp", "org.hucompute.publichistory.datastore.typesystem.Comment");
+    return jcasType.ll_cas.ll_getLongValue(addr, ((Comment_Type)jcasType).casFeatCode_timestamp);}
+    
+  /** setter for timestamp - sets  
+   * @generated
+   * @param v value to set into the feature 
+   */
+  public void setTimestamp(long v) {
+    if (Comment_Type.featOkTst && ((Comment_Type)jcasType).casFeat_timestamp == null)
+      jcasType.jcas.throwFeatMissing("timestamp", "org.hucompute.publichistory.datastore.typesystem.Comment");
+    jcasType.ll_cas.ll_setLongValue(addr, ((Comment_Type)jcasType).casFeatCode_timestamp, v);}    
+  }
 
     
