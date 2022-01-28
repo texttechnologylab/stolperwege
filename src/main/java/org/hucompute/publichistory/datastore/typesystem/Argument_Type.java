@@ -2,19 +2,19 @@
 /* First created by JCasGen Tue Jan 25 16:26:01 CET 2022 */
 package org.hucompute.publichistory.datastore.typesystem;
 
+import org.apache.uima.cas.Type;
+import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.JCasRegistry;
-import org.apache.uima.cas.impl.TypeImpl;
-import org.apache.uima.cas.Type;
 
-/** 
- * Updated by JCasGen Tue Jan 25 16:36:54 CET 2022
+/**
+ * Updated by JCasGen Tue Jan 25 18:33:52 CET 2022
  * @generated */
 public class Argument_Type extends StolperwegeElement_Type {
   /** @generated */
   @SuppressWarnings ("hiding")
   public final static int typeIndexID = Argument.typeIndexID;
-  /** @generated 
+    /** @generated
      @modifiable */
   @SuppressWarnings ("hiding")
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("org.hucompute.publichistory.datastore.typesystem.Argument");
@@ -24,7 +24,7 @@ public class Argument_Type extends StolperwegeElement_Type {
   /** initialize variables to correspond with Cas Type and Features
 	 * @generated
 	 * @param jcas JCas
-	 * @param casType Type 
+   * @param casType Type
 	 */
   public Argument_Type(JCas jcas, Type casType) {
     super(jcas, casType);
@@ -35,4 +35,3 @@ public class Argument_Type extends StolperwegeElement_Type {
 
 
 
-    
