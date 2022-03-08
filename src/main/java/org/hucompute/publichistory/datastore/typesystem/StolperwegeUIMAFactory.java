@@ -1,7 +1,6 @@
 package org.hucompute.publichistory.datastore.typesystem;
 
 
-import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.cas.AnnotationBase;
 import org.hucompute.publichistory.datastore.GeoPoint;
 
@@ -291,6 +290,15 @@ public interface StolperwegeUIMAFactory {
     Set<Exploration> listExploration();
     void deleteExploration(Exploration pElement);
 
+    TimeLayer createTimeLayer(String sValue);
+
+    TimeLayer getTimeLayer(String sURI);
+
+    Set<TimeLayer> listTimeLayers(String sURI);
+
+    Set<TimeLayer> listTimeLayers();
+
+    void deleteTimeLayer(TimeLayer pElement);
 
 
 
