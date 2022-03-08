@@ -10,7 +10,7 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /**
- * Updated by JCasGen Tue Mar 08 09:10:00 CET 2022
+ * Updated by JCasGen Tue Mar 08 13:41:20 CET 2022
  * XML source: /home/gabrami/Projects/GitHub/stolperwege/src/main/resources/desc/type/Time.xml
  * @generated */
 public class StolperwegeElement extends Annotation {

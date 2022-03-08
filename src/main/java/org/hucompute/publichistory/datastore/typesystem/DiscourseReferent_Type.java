@@ -10,7 +10,7 @@ import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.JCasRegistry;
 
 /**
- * Updated by JCasGen Tue Mar 08 09:10:00 CET 2022
+ * Updated by JCasGen Tue Mar 08 13:41:20 CET 2022
  * @generated */
 public class DiscourseReferent_Type extends Argument_Type {
   /** @generated */

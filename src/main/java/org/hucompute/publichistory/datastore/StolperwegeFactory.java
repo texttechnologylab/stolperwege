@@ -1,6 +1,9 @@
 package org.hucompute.publichistory.datastore;
 
 
+import org.hucompute.publichistory.datastore.typesystem.Journey;
+import org.hucompute.publichistory.datastore.typesystem.Quiz;
+
 import java.net.URISyntaxException;
 import java.util.Calendar;
 import java.util.Set;
@@ -84,6 +87,10 @@ public interface StolperwegeFactory {
 
     TimeLayer createTimeLayer(String sValue);
     TimeLayer getTimeLayer(String sValue);
+
+    Journey createJourney(String sValue, Set<Quiz> pQuizes);
+
+    Journey getJourney(String sValue);
 
     Set<Time> getTimes();
     Set<Time> getTimeByURI(String[] sURIs);

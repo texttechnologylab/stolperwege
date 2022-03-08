@@ -1,25 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<typeSystemDescription
-	xmlns="http://uima.apache.org/resourceSpecifier">
-	<name>Comment</name>
-	<description />
-	<version>1.0</version>
-	<vendor />
-	<imports>
-		<import location="Text.xml" />
-	</imports>
-	<types>
-		<typeDescription>
-			<name>org.hucompute.publichistory.datastore.typesystem.Comment</name>
-			<description />
-			<supertypeName>org.hucompute.publichistory.datastore.typesystem.Text</supertypeName>
-			<features>
-				<featureDescription>
-					<name>timestamp</name>
-					<description />
-					<rangeTypeName>uima.cas.Long</rangeTypeName>
-				</featureDescription>
-			</features>
-		</typeDescription>
-	</types>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+
+    <name>Comment</name>
+
+    <description/>
+
+    <version>1.0</version>
+
+    <vendor/>
+
+    <imports>
+
+        <import location="Text.xml"/>
+
+    </imports>
+
+    <types>
+
+        <typeDescription>
+
+            <name>org.hucompute.publichistory.datastore.typesystem.Comment</name>
+
+            <description/>
+
+            <supertypeName>org.hucompute.publichistory.datastore.typesystem.Text</supertypeName>
+
+            <features>
+
+                <featureDescription>
+
+                    <name>timestamp</name>
+
+                    <description/>
+
+                    <rangeTypeName>uima.cas.Long</rangeTypeName>
+
+                </featureDescription>
+
+                <featureDescription>
+
+                    <name>deleted</name>
+
+                    <description/>
+
+                    <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+
+                </featureDescription>
+            </features>
+
+        </typeDescription>
+
+    </types>
+
 </typeSystemDescription>

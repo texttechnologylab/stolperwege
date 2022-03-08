@@ -5,16 +5,14 @@ package org.hucompute.publichistory.datastore.typesystem;
 
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.JCasRegistry;
-import org.apache.uima.jcas.cas.StringList;
+import org.apache.uima.jcas.cas.StringArray;
 import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /**
- * Updated by JCasGen Tue Mar 08 09:10:00 CET 2022
+ * Updated by JCasGen Tue Mar 08 13:41:20 CET 2022
  * XML source: /home/gabrami/Projects/GitHub/stolperwege/src/main/resources/desc/type/Time.xml
- *
- * @generated
- */
+ * @generated */
 public class TimeLayer extends TimeProcess {
     /**
      * @generated
@@ -98,10 +96,10 @@ public class TimeLayer extends TimeProcess {
      * @return value of the feature
      * @generated
      */
-    public StringList getElements() {
+    public StringArray getElements() {
         if (TimeLayer_Type.featOkTst && ((TimeLayer_Type) jcasType).casFeat_elements == null)
             jcasType.jcas.throwFeatMissing("elements", "org.hucompute.publichistory.datastore.typesystem.TimeLayer");
-        return (StringList) (jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((TimeLayer_Type) jcasType).casFeatCode_elements)));
+        return (StringArray) (jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((TimeLayer_Type) jcasType).casFeatCode_elements)));
     }
 
     /**
@@ -110,10 +108,38 @@ public class TimeLayer extends TimeProcess {
      * @param v value to set into the feature
      * @generated
      */
-    public void setElements(StringList v) {
+    public void setElements(StringArray v) {
         if (TimeLayer_Type.featOkTst && ((TimeLayer_Type) jcasType).casFeat_elements == null)
             jcasType.jcas.throwFeatMissing("elements", "org.hucompute.publichistory.datastore.typesystem.TimeLayer");
         jcasType.ll_cas.ll_setRefValue(addr, ((TimeLayer_Type) jcasType).casFeatCode_elements, jcasType.ll_cas.ll_getFSRef(v));
+    }
+
+    /**
+     * indexed getter for elements - gets an indexed value -
+     *
+     * @param i index in the array to get
+     * @return value of the element at index i
+     * @generated
+     */
+    public String getElements(int i) {
+        if (TimeLayer_Type.featOkTst && ((TimeLayer_Type) jcasType).casFeat_elements == null)
+            jcasType.jcas.throwFeatMissing("elements", "org.hucompute.publichistory.datastore.typesystem.TimeLayer");
+        jcasType.jcas.checkArrayBounds(jcasType.ll_cas.ll_getRefValue(addr, ((TimeLayer_Type) jcasType).casFeatCode_elements), i);
+        return jcasType.ll_cas.ll_getStringArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((TimeLayer_Type) jcasType).casFeatCode_elements), i);
+    }
+
+    /**
+     * indexed setter for elements - sets an indexed value -
+     *
+     * @param i index in the array to set
+     * @param v value to set into the array
+     * @generated
+     */
+    public void setElements(int i, String v) {
+        if (TimeLayer_Type.featOkTst && ((TimeLayer_Type) jcasType).casFeat_elements == null)
+            jcasType.jcas.throwFeatMissing("elements", "org.hucompute.publichistory.datastore.typesystem.TimeLayer");
+        jcasType.jcas.checkArrayBounds(jcasType.ll_cas.ll_getRefValue(addr, ((TimeLayer_Type) jcasType).casFeatCode_elements), i);
+        jcasType.ll_cas.ll_setStringArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((TimeLayer_Type) jcasType).casFeatCode_elements), i, v);
     }
 }
 

@@ -101,7 +101,7 @@
                     <description/>
 
 
-                    <rangeTypeName>uima.cas.StringList</rangeTypeName>
+                    <rangeTypeName>uima.cas.StringArray</rangeTypeName>
 
 
                     <multipleReferencesAllowed>false</multipleReferencesAllowed>

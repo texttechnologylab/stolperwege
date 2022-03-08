@@ -1,33 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<typeSystemDescription
-	xmlns="http://uima.apache.org/resourceSpecifier">
-	<name>Quiz</name>
-	<description />
-	<version>1.0</version>
-	<vendor />
-	<imports>
-		<import location="Text.xml" />
-		<import location="StolperwegeUser.xml" />
-	</imports>
-	<types>
-		<typeDescription>
-			<name>org.hucompute.publichistory.datastore.typesystem.Quiz</name>
-			<description />
-			<supertypeName>org.hucompute.publichistory.datastore.typesystem.DiscourseReferent</supertypeName>
-			<features>
-				<featureDescription>
-					<name>participants</name>
-					<description />
-					<rangeTypeName>uima.cas.FSArray</rangeTypeName>
-					<elementType>org.hucompute.publichistory.datastore.typesystem.StolperwegeUser</elementType>
-				</featureDescription>
-				<featureDescription>
-					<name>answers</name>
-					<description />
-					<rangeTypeName>uima.cas.FSArray</rangeTypeName>
-					<elementType>org.hucompute.publichistory.datastore.typesystem.Text</elementType>
-				</featureDescription>
-			</features>
-		</typeDescription>
-	</types>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+
+    <name>Quiz</name>
+
+    <description/>
+
+    <version>1.0</version>
+
+    <vendor/>
+
+    <imports>
+
+        <import location="Text.xml"/>
+
+        <import location="StolperwegeUser.xml"/>
+
+    </imports>
+
+    <types>
+
+        <typeDescription>
+
+            <name>org.hucompute.publichistory.datastore.typesystem.Quiz</name>
+
+            <description/>
+
+            <supertypeName>org.hucompute.publichistory.datastore.typesystem.DiscourseReferent</supertypeName>
+
+            <features>
+
+                <featureDescription>
+
+                    <name>answers</name>
+
+                    <description/>
+
+                    <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+
+                    <elementType>org.hucompute.publichistory.datastore.typesystem.Text</elementType>
+
+                </featureDescription>
+
+                <featureDescription>
+
+                    <name>correct</name>
+
+                    <description/>
+
+                    <rangeTypeName>org.hucompute.publichistory.datastore.typesystem.Text</rangeTypeName>
+
+                </featureDescription>
+            </features>
+
+        </typeDescription>
+
+    </types>
+
 </typeSystemDescription>
