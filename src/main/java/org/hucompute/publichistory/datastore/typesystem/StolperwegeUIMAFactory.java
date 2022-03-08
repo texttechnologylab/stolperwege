@@ -297,4 +297,12 @@ public interface StolperwegeUIMAFactory {
     Set<TimeLayer> listTimeLayers();
     void deleteTimeLayer(TimeLayer pElement);
 
+    Journey createJourney(String sValue);
+
+    Journey getJourney(String sURI);
+
+    Set<Journey> listJourneys();
+
+    void deleteJourney(Journey pElement);
+
 }
