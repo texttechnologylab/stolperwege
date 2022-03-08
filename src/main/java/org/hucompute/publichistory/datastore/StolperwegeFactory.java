@@ -95,4 +95,5 @@ public interface StolperwegeFactory {
     Set<Time> getTimes();
     Set<Time> getTimeByURI(String[] sURIs);
     Time createTime(Calendar calendar);
+
 }

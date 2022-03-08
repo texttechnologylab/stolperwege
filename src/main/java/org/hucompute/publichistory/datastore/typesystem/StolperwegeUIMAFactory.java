@@ -209,6 +209,8 @@ public interface StolperwegeUIMAFactory {
 
 
     Set<Preference> getPreferences(DiscourseReferent pDiscourceReferent);
+
+    Set<Preference> getPreferences();
     Preference getPreference(DiscourseReferent pDiscourceReferent, String sValue);
     void addPreference(DiscourseReferent pDiscourceReferent, Preference pPreference);
     void deletePreference(DiscourseReferent pDiscourceReferent, Preference pPreference);
@@ -291,15 +293,8 @@ public interface StolperwegeUIMAFactory {
     void deleteExploration(Exploration pElement);
 
     TimeLayer createTimeLayer(String sValue);
-
     TimeLayer getTimeLayer(String sURI);
-
-    Set<TimeLayer> listTimeLayers(String sURI);
-
     Set<TimeLayer> listTimeLayers();
-
     void deleteTimeLayer(TimeLayer pElement);
-
-
 
 }
