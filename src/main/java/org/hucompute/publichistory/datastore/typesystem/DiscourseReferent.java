@@ -10,7 +10,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /**
- * Updated by JCasGen Tue Jan 25 18:33:52 CET 2022
+ * Updated by JCasGen Tue Mar 08 09:10:00 CET 2022
  * XML source: /home/gabrami/Projects/GitHub/stolperwege/src/main/resources/desc/type/Time.xml
  * @generated */
 public class DiscourseReferent extends Argument {
@@ -68,14 +68,15 @@ public class DiscourseReferent extends Argument {
      */
     @Override
     public int getTypeIndexID() {
-        return typeIndexID;}
+        return typeIndexID;
+    }
 
-  /**
+    /**
    * <!-- begin-user-doc -->
    * Write your own initialization here
    * <!-- end-user-doc -->
    *
-   * @generated modifiable
+     * @generated modifiable
    */
   private void readObject() {/*default - does nothing empty block */}
 
@@ -91,7 +92,7 @@ public class DiscourseReferent extends Argument {
   public FSArray getEquivalent() {
     if (DiscourseReferent_Type.featOkTst && ((DiscourseReferent_Type)jcasType).casFeat_equivalent == null)
       jcasType.jcas.throwFeatMissing("equivalent", "org.hucompute.publichistory.datastore.typesystem.DiscourseReferent");
-    return (FSArray)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((DiscourseReferent_Type)jcasType).casFeatCode_equivalent)));
+      return (FSArray) (jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((DiscourseReferent_Type) jcasType).casFeatCode_equivalent)));
   }
 
     /** setter for equivalent - sets
@@ -113,7 +114,7 @@ public class DiscourseReferent extends Argument {
     if (DiscourseReferent_Type.featOkTst && ((DiscourseReferent_Type)jcasType).casFeat_equivalent == null)
       jcasType.jcas.throwFeatMissing("equivalent", "org.hucompute.publichistory.datastore.typesystem.DiscourseReferent");
     jcasType.jcas.checkArrayBounds(jcasType.ll_cas.ll_getRefValue(addr, ((DiscourseReferent_Type)jcasType).casFeatCode_equivalent), i);
-    return (DiscourseReferent)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((DiscourseReferent_Type)jcasType).casFeatCode_equivalent), i)));
+      return (DiscourseReferent) (jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((DiscourseReferent_Type) jcasType).casFeatCode_equivalent), i)));
   }
 
     /** indexed setter for equivalent - sets an indexed value -

@@ -11,7 +11,7 @@ import org.apache.uima.jcas.JCasRegistry;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /**
- * Updated by JCasGen Tue Jan 25 18:33:52 CET 2022
+ * Updated by JCasGen Tue Mar 08 09:10:00 CET 2022
  * @generated */
 public class StolperwegeElement_Type extends Annotation_Type {
   /** @generated */
@@ -47,7 +47,6 @@ public class StolperwegeElement_Type extends Annotation_Type {
         casFeatCode_description = (null == casFeat_description) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_description).getCode();
 
     }
-
   /** @generated
    * @param addr low level Feature Structure reference
    * @return the feature value
@@ -57,8 +56,6 @@ public class StolperwegeElement_Type extends Annotation_Type {
           jcas.throwFeatMissing("value", "org.hucompute.publichistory.datastore.typesystem.StolperwegeElement");
       return ll_cas.ll_getStringValue(addr, casFeatCode_value);
   }
-
-
     /**
      * @generated
      */
@@ -77,7 +74,8 @@ public class StolperwegeElement_Type extends Annotation_Type {
       jcas.throwFeatMissing("value", "org.hucompute.publichistory.datastore.typesystem.StolperwegeElement");
     ll_cas.ll_setStringValue(addr, casFeatCode_value, v);}
 
-  /** @generated
+
+    /** @generated
    * @param addr low level Feature Structure reference
    * @return the feature value
    */
@@ -86,7 +84,6 @@ public class StolperwegeElement_Type extends Annotation_Type {
       jcas.throwFeatMissing("description", "org.hucompute.publichistory.datastore.typesystem.StolperwegeElement");
     return ll_cas.ll_getStringValue(addr, casFeatCode_description);
   }
-
   /** @generated
    * @param addr low level Feature Structure reference
    * @param v value to set
@@ -95,6 +92,8 @@ public class StolperwegeElement_Type extends Annotation_Type {
         if (featOkTst && casFeat_description == null)
       jcas.throwFeatMissing("description", "org.hucompute.publichistory.datastore.typesystem.StolperwegeElement");
     ll_cas.ll_setStringValue(addr, casFeatCode_description, v);}
+
+
 }
 
 

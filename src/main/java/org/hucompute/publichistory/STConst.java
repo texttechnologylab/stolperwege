@@ -64,7 +64,7 @@ public class STConst {
     public static final String DUMMYURI="http://dummy";
 
     public static final String username = "stolperwege";
-    public static final String password = "4cbede40500734def618b787b55f6025";
+    public static final String password = "a699199498abed476543511aa749a9d9";
 
     public enum TYPE {STOLPERWEGE, USER, CHAT, MESSAGE, PERSON, EVENT, PLACE, ARGUMENT,ARGUMENTASSIGNMENT,ARGUMENTROLE,PREDICATE,PROPOSITION, STOLPERSTEIN, DISCOURSEREFERENT, TIME}
 

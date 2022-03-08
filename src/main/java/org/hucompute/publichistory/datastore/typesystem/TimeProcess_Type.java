@@ -10,7 +10,7 @@ import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.JCasRegistry;
 
 /**
- * Updated by JCasGen Tue Jan 25 18:33:52 CET 2022
+ * Updated by JCasGen Tue Mar 08 09:10:00 CET 2022
  * @generated */
 public class TimeProcess_Type extends Time_Type {
   /** @generated */
@@ -42,7 +42,6 @@ public class TimeProcess_Type extends Time_Type {
         casFeatCode_endDate = (null == casFeat_endDate) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_endDate).getCode();
 
     }
-
   /** @generated
    * @param addr low level Feature Structure reference
    * @return the feature value
@@ -52,7 +51,6 @@ public class TimeProcess_Type extends Time_Type {
       jcas.throwFeatMissing("endDate", "org.hucompute.publichistory.datastore.typesystem.TimeProcess");
     return ll_cas.ll_getStringValue(addr, casFeatCode_endDate);
   }
-
   /** @generated
    * @param addr low level Feature Structure reference
    * @param v value to set
@@ -61,6 +59,8 @@ public class TimeProcess_Type extends Time_Type {
         if (featOkTst && casFeat_endDate == null)
       jcas.throwFeatMissing("endDate", "org.hucompute.publichistory.datastore.typesystem.TimeProcess");
     ll_cas.ll_setStringValue(addr, casFeatCode_endDate, v);}
+
+
 }
 
 

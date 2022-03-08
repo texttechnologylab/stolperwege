@@ -9,7 +9,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /**
- * Updated by JCasGen Tue Jan 25 18:33:52 CET 2022
+ * Updated by JCasGen Tue Mar 08 09:10:00 CET 2022
  * XML source: /home/gabrami/Projects/GitHub/stolperwege/src/main/resources/desc/type/Time.xml
  * @generated */
 public class Argument extends StolperwegeElement {
@@ -67,14 +67,15 @@ public class Argument extends StolperwegeElement {
      */
     @Override
     public int getTypeIndexID() {
-        return typeIndexID;}
+        return typeIndexID;
+    }
 
-  /**
+    /**
    * <!-- begin-user-doc -->
    * Write your own initialization here
    * <!-- end-user-doc -->
    *
-   * @generated modifiable
+     * @generated modifiable
    */
   private void readObject() {/*default - does nothing empty block */}
 

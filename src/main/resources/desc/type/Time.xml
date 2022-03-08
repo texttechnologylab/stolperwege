@@ -1,30 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<typeSystemDescription
-	xmlns="http://uima.apache.org/resourceSpecifier">
-	<name>org.hucompute.publichistory.datastore.typesystem.Time</name>
-	<description />
-	<version>1.0</version>
-	<vendor />
-	<imports>
-		<import location="DiscourseReferent.xml" />
-	</imports>
-	<types>
-		<typeDescription>
-			<name>org.hucompute.publichistory.datastore.typesystem.Time</name>
-			<description />
-			<supertypeName>org.hucompute.publichistory.datastore.typesystem.DiscourseReferent</supertypeName>
-		</typeDescription>
-		<typeDescription>
-			<name>org.hucompute.publichistory.datastore.typesystem.TimeProcess</name>
-			<description />
-			<supertypeName>org.hucompute.publichistory.datastore.typesystem.Time</supertypeName>
-			<features>
-				<featureDescription>
-					<name>endDate</name>
-					<description />
-					<rangeTypeName>uima.cas.String</rangeTypeName>
-				</featureDescription>
-			</features>
-		</typeDescription>
-	</types>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+
+
+    <name>org.hucompute.publichistory.datastore.typesystem.Time</name>
+
+
+    <description/>
+
+
+    <version>1.0</version>
+
+
+    <vendor/>
+
+
+    <imports>
+
+
+        <import location="DiscourseReferent.xml"/>
+
+
+    </imports>
+
+
+    <types>
+
+
+        <typeDescription>
+
+
+            <name>org.hucompute.publichistory.datastore.typesystem.Time</name>
+
+
+            <description/>
+
+
+            <supertypeName>org.hucompute.publichistory.datastore.typesystem.DiscourseReferent</supertypeName>
+
+
+        </typeDescription>
+
+
+        <typeDescription>
+
+
+            <name>org.hucompute.publichistory.datastore.typesystem.TimeProcess</name>
+
+
+            <description/>
+
+
+            <supertypeName>org.hucompute.publichistory.datastore.typesystem.Time</supertypeName>
+
+
+            <features>
+
+
+                <featureDescription>
+
+
+                    <name>endDate</name>
+
+
+                    <description/>
+
+
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+
+
+                </featureDescription>
+
+
+            </features>
+
+
+        </typeDescription>
+
+
+        <typeDescription>
+
+
+            <name>org.hucompute.publichistory.datastore.typesystem.TimeLayer</name>
+
+
+            <description/>
+
+
+            <supertypeName>org.hucompute.publichistory.datastore.typesystem.TimeProcess</supertypeName>
+
+
+            <features>
+
+
+                <featureDescription>
+
+
+                    <name>elements</name>
+
+
+                    <description/>
+
+
+                    <rangeTypeName>uima.cas.StringList</rangeTypeName>
+
+
+                    <multipleReferencesAllowed>false</multipleReferencesAllowed>
+
+
+                </featureDescription>
+
+
+            </features>
+
+
+        </typeDescription>
+
+    </types>
+
+
 </typeSystemDescription>

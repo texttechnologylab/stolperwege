@@ -10,7 +10,7 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /**
- * Updated by JCasGen Tue Jan 25 18:33:52 CET 2022
+ * Updated by JCasGen Tue Mar 08 09:10:00 CET 2022
  * XML source: /home/gabrami/Projects/GitHub/stolperwege/src/main/resources/desc/type/Time.xml
  * @generated */
 public class StolperwegeElement extends Annotation {
@@ -68,14 +68,15 @@ public class StolperwegeElement extends Annotation {
      */
     @Override
     public int getTypeIndexID() {
-        return typeIndexID;}
+        return typeIndexID;
+    }
 
-  /**
+    /**
    * <!-- begin-user-doc -->
    * Write your own initialization here
    * <!-- end-user-doc -->
    *
-   * @generated modifiable
+     * @generated modifiable
    */
   private void readObject() {/*default - does nothing empty block */}
 
@@ -84,23 +85,25 @@ public class StolperwegeElement extends Annotation {
   //*--------------*
     //* Feature: value
 
-  /** getter for value - gets
+    /** getter for value - gets
    * @generated
-   * @return value of the feature
+     * @return value of the feature
    */
   public String getValue() {
     if (StolperwegeElement_Type.featOkTst && ((StolperwegeElement_Type)jcasType).casFeat_value == null)
       jcasType.jcas.throwFeatMissing("value", "org.hucompute.publichistory.datastore.typesystem.StolperwegeElement");
-    return jcasType.ll_cas.ll_getStringValue(addr, ((StolperwegeElement_Type) jcasType).casFeatCode_value);}
+      return jcasType.ll_cas.ll_getStringValue(addr, ((StolperwegeElement_Type) jcasType).casFeatCode_value);
+  }
 
-  /** setter for value - sets
+    /** setter for value - sets
    * @generated
-   * @param v value to set into the feature
+     * @param v value to set into the feature
    */
   public void setValue(String v) {
     if (StolperwegeElement_Type.featOkTst && ((StolperwegeElement_Type)jcasType).casFeat_value == null)
       jcasType.jcas.throwFeatMissing("value", "org.hucompute.publichistory.datastore.typesystem.StolperwegeElement");
-      jcasType.ll_cas.ll_setStringValue(addr, ((StolperwegeElement_Type) jcasType).casFeatCode_value, v);}
+      jcasType.ll_cas.ll_setStringValue(addr, ((StolperwegeElement_Type) jcasType).casFeatCode_value, v);
+  }
 
 
   //*--------------*
@@ -113,7 +116,7 @@ public class StolperwegeElement extends Annotation {
   public String getDescription() {
     if (StolperwegeElement_Type.featOkTst && ((StolperwegeElement_Type)jcasType).casFeat_description == null)
       jcasType.jcas.throwFeatMissing("description", "org.hucompute.publichistory.datastore.typesystem.StolperwegeElement");
-    return jcasType.ll_cas.ll_getStringValue(addr, ((StolperwegeElement_Type)jcasType).casFeatCode_description);
+      return jcasType.ll_cas.ll_getStringValue(addr, ((StolperwegeElement_Type) jcasType).casFeatCode_description);
   }
 
     /** setter for description - sets
@@ -123,6 +126,7 @@ public class StolperwegeElement extends Annotation {
   public void setDescription(String v) {
     if (StolperwegeElement_Type.featOkTst && ((StolperwegeElement_Type)jcasType).casFeat_description == null)
       jcasType.jcas.throwFeatMissing("description", "org.hucompute.publichistory.datastore.typesystem.StolperwegeElement");
-      jcasType.ll_cas.ll_setStringValue(addr, ((StolperwegeElement_Type) jcasType).casFeatCode_description, v);}
+      jcasType.ll_cas.ll_setStringValue(addr, ((StolperwegeElement_Type) jcasType).casFeatCode_description, v);
+  }
   }
 

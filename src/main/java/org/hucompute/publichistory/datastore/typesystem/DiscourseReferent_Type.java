@@ -10,7 +10,7 @@ import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.JCasRegistry;
 
 /**
- * Updated by JCasGen Tue Jan 25 18:33:52 CET 2022
+ * Updated by JCasGen Tue Mar 08 09:10:00 CET 2022
  * @generated */
 public class DiscourseReferent_Type extends Argument_Type {
   /** @generated */
@@ -42,7 +42,6 @@ public class DiscourseReferent_Type extends Argument_Type {
         casFeatCode_equivalent = (null == casFeat_equivalent) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_equivalent).getCode();
 
     }
-
   /** @generated
    * @param addr low level Feature Structure reference
    * @return the feature value
@@ -52,7 +51,6 @@ public class DiscourseReferent_Type extends Argument_Type {
       jcas.throwFeatMissing("equivalent", "org.hucompute.publichistory.datastore.typesystem.DiscourseReferent");
     return ll_cas.ll_getRefValue(addr, casFeatCode_equivalent);
   }
-
   /** @generated
    * @param addr low level Feature Structure reference
    * @param v value to set
@@ -62,7 +60,7 @@ public class DiscourseReferent_Type extends Argument_Type {
       jcas.throwFeatMissing("equivalent", "org.hucompute.publichistory.datastore.typesystem.DiscourseReferent");
     ll_cas.ll_setRefValue(addr, casFeatCode_equivalent, v);}
 
-   /** @generated
+    /** @generated
    * @param addr low level Feature Structure reference
    * @param i index of item in the array
     * @return value at index i in the array
@@ -76,7 +74,7 @@ public class DiscourseReferent_Type extends Argument_Type {
   return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_equivalent), i);
   }
 
-  /** @generated
+    /** @generated
    * @param addr low level Feature Structure reference
    * @param i index of item in the array
    * @param v value to set
@@ -89,6 +87,8 @@ public class DiscourseReferent_Type extends Argument_Type {
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_equivalent), i);
     ll_cas.ll_setRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_equivalent), i, v);
   }
+
+
 }
 
 
