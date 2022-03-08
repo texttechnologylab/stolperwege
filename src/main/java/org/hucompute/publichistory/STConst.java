@@ -13,7 +13,7 @@ public class STConst {
     */
 
     //public static final String OWLNOTATOR = "http://localhost:8080/owlnotator/"; //the url of the Annotation-Service (OWLnotator)
-    public static final String APPURI = "http://app.stolperwege.hucompute.org"; //the url of the Annotation-Service
+    public static final String APPURI = "http://app.stolperwege.hucompute.org/"; //the url of the Annotation-Service
 
     public static final String OWLNOTATOR = "http://db.stolperwege.hucompute.org/"; //the url of the Annotation-Service (OWLnotator)
     public static final String CMD_CREATEANNOTATION = OWLNOTATOR+"createAnnotation/"; //the Command for Creating Annotation
