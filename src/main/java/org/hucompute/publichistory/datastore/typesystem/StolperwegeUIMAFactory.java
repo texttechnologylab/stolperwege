@@ -293,6 +293,8 @@ public interface StolperwegeUIMAFactory {
     void deleteExploration(Exploration pElement);
 
     TimeLayer createTimeLayer(String sValue);
+
+    TimeLayer createTimeLayer(String sValue, boolean bElementsOnly);
     TimeLayer getTimeLayer(String sURI);
     Set<TimeLayer> listTimeLayers();
     void deleteTimeLayer(TimeLayer pElement);
