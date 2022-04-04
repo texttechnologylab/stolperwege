@@ -9,7 +9,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /**
- * Updated by JCasGen Tue Mar 08 13:41:20 CET 2022
+ * Updated by JCasGen Mon Apr 04 13:45:28 CEST 2022
  * XML source: /home/gabrami/Projects/GitHub/stolperwege/src/main/resources/desc/type/Time.xml
  * @generated */
 public class Time extends DiscourseReferent {

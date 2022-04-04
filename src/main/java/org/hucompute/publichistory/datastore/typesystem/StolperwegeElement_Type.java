@@ -11,7 +11,7 @@ import org.apache.uima.jcas.JCasRegistry;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /**
- * Updated by JCasGen Tue Mar 08 13:41:20 CET 2022
+ * Updated by JCasGen Mon Apr 04 13:45:28 CEST 2022
  * @generated */
 public class StolperwegeElement_Type extends Annotation_Type {
   /** @generated */

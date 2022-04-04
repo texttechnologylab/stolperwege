@@ -10,7 +10,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /**
- * Updated by JCasGen Tue Mar 08 13:41:20 CET 2022
+ * Updated by JCasGen Mon Apr 04 13:45:28 CEST 2022
  * XML source: /home/gabrami/Projects/GitHub/stolperwege/src/main/resources/desc/type/Time.xml
  * @generated */
 public class TimeLayer extends TimeProcess {
@@ -140,6 +140,34 @@ public class TimeLayer extends TimeProcess {
             jcasType.jcas.throwFeatMissing("elements", "org.hucompute.publichistory.datastore.typesystem.TimeLayer");
         jcasType.jcas.checkArrayBounds(jcasType.ll_cas.ll_getRefValue(addr, ((TimeLayer_Type) jcasType).casFeatCode_elements), i);
         jcasType.ll_cas.ll_setStringArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((TimeLayer_Type) jcasType).casFeatCode_elements), i, v);
+    }
+
+
+    //*--------------*
+    //* Feature: only
+
+    /**
+     * getter for only - gets
+     *
+     * @return value of the feature
+     * @generated
+     */
+    public boolean getOnly() {
+        if (TimeLayer_Type.featOkTst && ((TimeLayer_Type) jcasType).casFeat_only == null)
+            jcasType.jcas.throwFeatMissing("only", "org.hucompute.publichistory.datastore.typesystem.TimeLayer");
+        return jcasType.ll_cas.ll_getBooleanValue(addr, ((TimeLayer_Type) jcasType).casFeatCode_only);
+    }
+
+    /**
+     * setter for only - sets
+     *
+     * @param v value to set into the feature
+     * @generated
+     */
+    public void setOnly(boolean v) {
+        if (TimeLayer_Type.featOkTst && ((TimeLayer_Type) jcasType).casFeat_only == null)
+            jcasType.jcas.throwFeatMissing("only", "org.hucompute.publichistory.datastore.typesystem.TimeLayer");
+        jcasType.ll_cas.ll_setBooleanValue(addr, ((TimeLayer_Type) jcasType).casFeatCode_only, v);
     }
 }
 

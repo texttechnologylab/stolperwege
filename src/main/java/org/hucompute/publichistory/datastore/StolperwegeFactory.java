@@ -86,6 +86,8 @@ public interface StolperwegeFactory {
     DiscourseReferent createDiscourseReferent(String title);
 
     TimeLayer createTimeLayer(String sValue);
+
+    TimeLayer createTimeLayer(String sValue, boolean bElementsOnly);
     TimeLayer getTimeLayer(String sValue);
 
     Journey createJourney(String sValue, Set<Quiz> pQuizes);

@@ -10,10 +10,8 @@ import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.JCasRegistry;
 
 /**
- * Updated by JCasGen Tue Mar 08 13:41:20 CET 2022
- *
- * @generated
- */
+ * Updated by JCasGen Mon Apr 04 13:45:28 CEST 2022
+ * @generated */
 public class TimeLayer_Type extends TimeProcess_Type {
     /**
      * @generated
@@ -37,6 +35,14 @@ public class TimeLayer_Type extends TimeProcess_Type {
     final int casFeatCode_elements;
 
     /**
+     * @generated
+     */
+    final Feature casFeat_only;
+    /**
+     * @generated
+     */
+    final int casFeatCode_only;
+    /**
      * initialize variables to correspond with Cas Type and Features
      *
      * @param jcas    JCas
@@ -51,7 +57,12 @@ public class TimeLayer_Type extends TimeProcess_Type {
         casFeat_elements = jcas.getRequiredFeatureDE(casType, "elements", "uima.cas.StringArray", featOkTst);
         casFeatCode_elements = (null == casFeat_elements) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_elements).getCode();
 
+
+        casFeat_only = jcas.getRequiredFeatureDE(casType, "only", "uima.cas.Boolean", featOkTst);
+        casFeatCode_only = (null == casFeat_only) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl) casFeat_only).getCode();
+
     }
+
     /**
      * @param addr low level Feature Structure reference
      * @return the feature value
@@ -62,6 +73,7 @@ public class TimeLayer_Type extends TimeProcess_Type {
             jcas.throwFeatMissing("elements", "org.hucompute.publichistory.datastore.typesystem.TimeLayer");
         return ll_cas.ll_getRefValue(addr, casFeatCode_elements);
     }
+
     /**
      * @param addr low level Feature Structure reference
      * @param v    value to set
@@ -102,6 +114,29 @@ public class TimeLayer_Type extends TimeProcess_Type {
         jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_elements), i);
         ll_cas.ll_setStringArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_elements), i, v);
     }
+
+    /**
+     * @param addr low level Feature Structure reference
+     * @return the feature value
+     * @generated
+     */
+    public boolean getOnly(int addr) {
+        if (featOkTst && casFeat_only == null)
+            jcas.throwFeatMissing("only", "org.hucompute.publichistory.datastore.typesystem.TimeLayer");
+        return ll_cas.ll_getBooleanValue(addr, casFeatCode_only);
+    }
+
+    /**
+     * @param addr low level Feature Structure reference
+     * @param v    value to set
+     * @generated
+     */
+    public void setOnly(int addr, boolean v) {
+        if (featOkTst && casFeat_only == null)
+            jcas.throwFeatMissing("only", "org.hucompute.publichistory.datastore.typesystem.TimeLayer");
+        ll_cas.ll_setBooleanValue(addr, casFeatCode_only, v);
+    }
+
 
 
 
